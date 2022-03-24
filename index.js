@@ -1,7 +1,10 @@
 var GtfsRealtimeBindings = require("gtfs-realtime-bindings");
 var request = require("request");
 var express = require("express");
+var cors = require("cors");
+
 app = express();
+app.use(cors());
 
 app.get("/train", (req, res, next) => {
     var requestSettings = {
