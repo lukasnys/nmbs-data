@@ -1,0 +1,20 @@
+{
+  "name": "nmbs-data",
+  "version": "1.0.0",
+  "description": "NMBS data in JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.18.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "gtfs-realtime-bindings": "0.0.6",
+    "request": "^2.88.2"
+  }
+}
